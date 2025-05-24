@@ -9,7 +9,7 @@
     "lint": "next lint",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "test": "npm test"
+    "test": "echo \"No tests specified\" && exit 0"
   },
   "dependencies": {
     "next": "15.1.8",
