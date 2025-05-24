@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "test": "npm test"
@@ -20,6 +20,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "eslint": "^9.27.0",
     "postcss": "^8",
     "prettier": "^3.5.3",
     "tailwindcss": "^3.4.1",
